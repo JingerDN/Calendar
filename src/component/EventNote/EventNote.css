@@ -1,0 +1,36 @@
+.event{
+    position: fixed;
+    height: 300px;
+    width: 200px;
+    background-color: aquamarine;
+    left: 400px;
+    z-index: 1000;
+    border-radius: 10px;
+
+}
+.event.hide{
+    display: none;
+}
+.event-body{
+    position: relative;
+}
+.event-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:self-start;
+}
+.event-content{
+    padding: 10px;
+
+}
+.btn-close-with-save{
+    color: red;
+    cursor: pointer;
+    background-color: transparent;
+}
+.discard-edit_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
